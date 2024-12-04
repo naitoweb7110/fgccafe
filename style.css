@@ -71,7 +71,7 @@ img {
 .main-nav a {
     color: #fff;
 }
-.main-nav a :hover {
+.main-nav a:hover {
     color: #7ed957;
 }
 
