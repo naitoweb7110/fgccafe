@@ -351,12 +351,15 @@ iframe {
   }
 
   .home-content {
-    margin: auto;
-    padding: 0;
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      margin: auto;
+      padding: 0;
+      color: #fff;
+      text-align: center;
   }
 
   .home-content .page-title {
