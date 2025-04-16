@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css""/>
         <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
         <link href="./style.css" rel="stylesheet">        
-    </head>
+    </head>    
     
     <body>
         <div id="home" class="big-bg">
@@ -25,11 +25,15 @@
                 </nav>
             </header>
 
-            <div class="home-content wrapper">
-               <h2 class="page-title">Feeling good cafe</h2>
-                 <p>もっと居たくなるような心地よい空間。本と人とを繋ぐカフェ。</p>
-                 <a class="button" href="menu.html">メニューを見る</a>
-            </div><!--/.home-content-->
-        </div><!--/#home-->
+             <!-- wrapper を home-content の外へ出す -->
+ 　　　　　　 <div class="home-content">
+   　　　　　 　<div class="wrapper">
+     　　　　　　 <h2 class="page-title">Feeling good cafe</h2>
+    　　　　 　　 <p>もっと居たくなるような心地よい空間。本と人とを繋ぐカフェ。</p>
+     　　　　　　 <a class="button" href="menu.html">メニューを見る</a>
+   　　　　　　 </div>
+　　　　 　　 </div>
+　　　　　</div>
+
     </body>
 </html>
