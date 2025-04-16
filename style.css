@@ -87,6 +87,7 @@ img {
 }
 .home-content {
     text-align:center;
+    margin-top: 10%;
     color: #fff;
 }
 .home-content p {
@@ -332,7 +333,7 @@ iframe {
 
     /*HOME*/
     .home-content {
-        margin-top: 0 !important; 
+        margin-top: 20px;
     }
 
     /*NEWS*/
@@ -407,45 +408,24 @@ iframe {
     .sns-box {
         margin-bottom: 30px;
     }
-}
+
+/* 画面サイズが768px以下＝スマホ時のみ適用 */
 @media screen and (max-width: 768px) {
   #home {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    align-items: center;      /* 縦中央 */
+    justify-content: center;  /* 横中央（オプション） */
+    height: 100vh;            /* 画面の高さに合わせる */
     flex-direction: column;
-    min-height: 100vh; 
-    background-position: center;
-    background-size: cover;
-    margin: 0;
-    padding: 0;
+    text-align: center;
   }
 
   .home-content {
-    margin: 0 !important;
-    padding: 0 !important;
-    text-align: center;
-    color: #fff;
-  }
-
-  .home-content .page-title {
-    font-size: 2.6rem;
-    margin-bottom: 16px;
-  }
-
-  .home-content p {
-    font-size: 1.2rem;
-    margin-bottom: 24px;
-  }
-
-  .button {
-    font-size: 1.2rem;
-    padding: 14px 28px;
-  }
-
-  .wrapper {
-    max-width: 100%;
+    margin: 0; /* 中央配置の邪魔になる余白を削除 */
     padding: 0;
   }
+}
+
+
 }
 
