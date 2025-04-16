@@ -451,50 +451,51 @@ iframe {
     padding: 0;
   }
 }
+
 @media screen and (max-width: 768px) {
-  /* ヘッダーはそのまま上に表示 */
+  #home {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+  }
+
   .page-header {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 10;
+    background: rgba(0,0,0,0.3); /* オプション：背景が見やすく */
     padding: 10px 4%;
-    background: transparent;
   }
 
-  /* 中央に表示させる部分（タイトルや文章） */
   .home-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     text-align: center;
     color: #fff;
-    z-index: 1;
-    width: 90%;
+    padding: 0;
+    margin: 0;
   }
 
   .home-content .page-title {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
+    margin-bottom: 10px;
   }
 
   .home-content p {
-    font-size: 1.1rem;
-    margin: 16px 0 32px;
+    font-size: 1rem;
+    margin-bottom: 20px;
   }
 
   .wrapper {
-    max-width: 100%;
     padding: 0;
-  }
-
-  #home {
-    position: relative;
-    height: 100vh;
-    background-position: center;
-    background-size: cover;
-    overflow: hidden;
+    max-width: 100%;
   }
 }
 
