@@ -436,3 +436,31 @@ iframe {
   }
 }
 
+@media screen and (max-width: 768px) {
+  #home {
+    position: relative;
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 80px; /* ヘッダーの高さを避ける */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .page-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    background: transparent;
+  }
+
+  .home-content {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #
+
