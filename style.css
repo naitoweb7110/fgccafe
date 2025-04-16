@@ -485,7 +485,7 @@ iframe {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100%;
+    height: auto;
   }
 
   .home-content .page-title {
