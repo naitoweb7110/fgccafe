@@ -332,6 +332,14 @@ iframe {
     }
 
     /*HOME*/
+　#home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+  }
+    
   .home-content {
     margin: auto;
     padding: 0 20px;
