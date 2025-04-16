@@ -333,7 +333,7 @@ iframe {
 
     /*HOME*/
     .home-content {
-        margin-top: 20px;
+        margin-top: 0 !important; 
     }
 
     /*NEWS*/
@@ -435,8 +435,8 @@ iframe {
     padding: 10px 4%;
   }
 
-  .home-content {
-    margin: 0;
+  .home-content 
+    margin-top: 0 !important; 
     padding: 0;
     text-align: center;
     color: #fff;
@@ -452,98 +452,4 @@ iframe {
   }
 }
 
-@media screen and (max-width: 768px) {
-  #home {
-    position: relative;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-position: center;
-    background-size: cover;
-    padding: 0;
-    margin: 0;
-  }
-
-  .page-header {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 10;
-    background: rgba(0,0,0,0.3); /* オプション：背景が見やすく */
-    padding: 10px 4%;
-  }
-
-  .home-content {
-    text-align: center;
-    color: #fff;
-    padding: 0;
-    margin: 0;
-  }
-
-  .home-content .page-title {
-    font-size: 2.2rem;
-    margin-bottom: 10px;
-  }
-
-  .home-content p {
-    font-size: 1rem;
-    margin-bottom: 20px;
-  }
-
-  .wrapper {
-    padding: 0;
-    max-width: 100%;
-  }
-}
-@media screen and (max-width: 768px) {
-  #home {
-    position: relative;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-position: center;
-    background-size: cover;
-    padding: 0;
-    margin: 0;
-  }
-
-  .page-header {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    z-index: 10;
-    background: rgba(0, 0, 0, 0.3);
-    padding: 10px 4%;
-  }
-
-  .home-content {
-    margin: 0 !important;
-    padding: 0 !important;
-    text-align: center;
-    color: #fff;
-    z-index: 1;
-  }
-
-  .home-content .page-title {
-    font-size: 2.2rem;
-    margin-bottom: 12px;
-  }
-
-  .home-content p {
-    font-size: 1.1rem;
-    margin-bottom: 24px;
-  }
-
-  .wrapper {
-    padding: 0 !important;
-    max-width: 100% !important;
-  }
-}
 
