@@ -332,10 +332,32 @@ iframe {
     }
 
     /*HOME*/
-    .home-content {
-        margin-top: 20px;
-    }
+  .home-content {
+    margin: auto;
+    padding: 0 20px;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+  }
 
+  .home-content .page-title {
+    font-size: clamp(2.2rem, 7vw, 2.6rem);
+    margin-bottom: 16px;
+  }
+
+  .home-content p {
+    font-size: clamp(1rem, 5vw, 1.2rem);
+    margin-bottom: 24px;
+  }
+
+  .button {
+    font-size: 1rem;
+    padding: 12px 24px;
+  }    
+    
     /*NEWS*/
     .news-contents {
         flex-direction: column;
@@ -372,7 +394,7 @@ iframe {
         margin-left: 80px;
     }
     
-    /*MEMU*/
+    /*MENU*/
     .menu-content {
         margin-top: 20%;
     }
@@ -408,7 +430,8 @@ iframe {
     .sns-box {
         margin-bottom: 30px;
     }
-}
+ }
+
 @media screen and (max-width: 768px) {
   #home {
     display: flex;
